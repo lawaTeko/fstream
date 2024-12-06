@@ -2,9 +2,9 @@
 #include <fstream>
 #include <string>
 /* 	fstream ini memiliki 3 bagian, yaitu :
-	1. ofstream
-	2. ifstream 
-	3. fstream
+	1. ofstream = membuat file dan menuliskan data ke file 
+	2. ifstream = berfungsi untuk membaca data dari file
+	3. fstream = adalah kombinasi dari kedua kelas diatas
 */
 using namespace std;
 
