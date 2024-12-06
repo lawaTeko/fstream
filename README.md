@@ -1,11 +1,28 @@
 <h1>fstream basic</h1>
 <table>
-        <tr>
-            <td>Baris 1 kolom 1</td>
-            <td>baris 1 kolom 2</td>
-        </tr>
-        <tr>
-            <td>Baris 2 kolom 1</td>
-            <td>baris 2 kolom 2</td>
-        </tr>
+  <thead>
+    <tr>
+      <th>Kelas</th>
+      <th>Fungsi Utama</th>
+      <th>Mode Operasi Default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>ifstream</code></td>
+      <td>Membaca file</td>
+      <td><code>std::ios::in</code></td>
+    </tr>
+    <tr>
+      <td><code>ofstream</code></td>
+      <td>Menulis file</td>
+      <td><code>std::ios::out</code></td>
+    </tr>
+    <tr>
+      <td><code>fstream</code></td>
+      <td>Membaca dan menulis file sekaligus</td>
+      <td>Tidak ada, harus ditentukan (<code>std::ios::in | std::ios::out</code>)</td>
+    </tr>
+  </tbody>
 </table>
+
