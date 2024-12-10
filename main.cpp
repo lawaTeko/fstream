@@ -1,3 +1,5 @@
+// lawaTeko, Kairatu
+// fstream : membuat, menuliskan, membaca file
 #include <iostream>
 #include <fstream>
 #include <string>
